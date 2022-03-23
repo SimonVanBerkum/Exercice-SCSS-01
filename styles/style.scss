@@ -1,0 +1,66 @@
+$ul: display flex, align-items center;
+
+$li: list-style none, padding-right 30px;
+
+img
+{
+    width: 100%;
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    ul
+    {
+        $ul
+    }
+    li
+    {
+        $li
+    }
+    img
+    {
+        width: 50%;
+    }
+}
+
+
+header
+{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    ul
+    {
+        $ul
+    }
+    li
+    {
+        $li
+    }
+}
+
+.grille
+{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .une
+    {
+        display: grid;
+        grid-column: 1 / 3;
+    }
+    .secondaire
+    {
+        grid-column: 1;
+    }
+}

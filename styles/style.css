@@ -1,0 +1,39 @@
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  padding-right: 30px;
+}
+nav img {
+  width: 50%;
+}
+
+header {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header li {
+  list-style: none;
+  padding-right: 30px;
+}/*# sourceMappingURL=style.css.map */
